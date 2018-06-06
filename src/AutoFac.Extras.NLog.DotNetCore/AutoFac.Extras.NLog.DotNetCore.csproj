@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Baris Ceviz</Authors>
+    <Description>AutoFact.Extras.NLog is porting to .NET Core</Description>
+    <Copyright>Copyright @ 2018 Baris Ceviz</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.5.4" />
+  </ItemGroup>
+
+</Project>
