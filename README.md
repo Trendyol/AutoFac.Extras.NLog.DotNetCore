@@ -53,7 +53,9 @@ public class LogWithPropertyDependency : ILogInterface
 
 You can run test with dotnet cli tool
 
-
+```
+dotnet test
+```
 
 ## Contributing
 
